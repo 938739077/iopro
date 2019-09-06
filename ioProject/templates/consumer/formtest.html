@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .input-group{
+            position: relative;
+            padding: 20px;
+            width: 250px;
+        }
+        .input-group input{
+            width: 200px;
+            display: inline-block;
+        }
+        .inline-group span{
+            display: inline-block;
+            position: absolute;
+            height: 12px;
+            font-size: 8px;
+            border: 1px solid red;
+            background-color: coral;
+            color: white;
+            top: 41px;
+            left: 20px;
+            width: 202px;
+        }
+    </style>
+</head>
+<body>
+    <form action="/form1/" method="POST">
+        <p>账号：{{ form.Account }} <span>{{ errors.Account }}</span></p>
+        <p>密码：{{ form.Password }} <span>{{ errors.Password }}</span></p>
+        <p>用户名：{{ form.Name }} <span>{{ errors.Name }}</span></p>
+        <p>邮箱：{{ form.Email }} <span>{{ errors.Email }}</span></p>
+        <p>电话：{{ form.Phone }} <span>{{ errors.Phone }}</span></p>
+        <p>验证码：{{ form.Captcha }} <span>{{ errors.Captcha }}</span></p>
+        <input type="submit" value="提交" />
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+{% load staticfiles %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>register</title>
+    <script src="{% static 'publicJs/jquery/jquery-3.1.1.min.js' %}" type="text/javascript"></script>
+    <link rel="stylesheet" href="{% static 'publicJs/bootstrap-datetimepicker/bootstrap-datetimepicker.css' %}">
+    <script src="{% static 'publicJs/bootstrap-datetimepicker/bootstrap-datetimepicker.js' %}" type="text/javascript"></script>
+    <link rel="stylesheet" href="{% static 'css/register.css' %}">
+</head>
+<body>
+    <div id="main-box">
+        <div id="main-half-box"></div>
+        <div id="register-box">
+            <form id="register-form" method="post" action="/user/register/">
+                {% csrf_token %}
+                <label class="from-label">用户名</label>
+                <span class="from-input">{{ form.Name }} <span>{{ errors.Name }}</span></span>
+                <label class="from-label">账号</label>
+                <span class="from-input">{{ form.Account }} <span>{{ errors.Account }}</span></span>
+                <label class="from-label">密码</label>
+                <span class="from-input">{{ form.Password }} <span>{{ errors.Password }}</span></span>
+                <label class="from-label">确认密码</label>
+                <span class="from-input">{{ form.RePassword }} <span>{{ errors.RePassword }}</span></span>
+                <label class="from-label">生日</label>
+                <span class="from-input">{{ form.BirthDay }} <span>{{ errors.BirthDay }}</span></span>
+                <label class="from-label">性别</label>
+                <span class="from-input">{{ form.Gender }} <span>{{ errors.Gender }}</span></span>
+                <label class="from-label">电话</label>
+                <span class="from-input">{{ form.Phone }} <span>{{ errors.Phone }}</span></span>
+                <label class="from-label">邮箱</label>
+                <span class="from-input">{{ form.Email }} <span>{{ errors.Email }}</span></span>
+                <label class="from-label">验证码</label>
+                <span class="from-input">{{ form.Captcha }} <span>{{ errors.Captcha }}</span></span>
+                <input type="submit" id="submit-btn" value="注     册">
+            </form>
+        </div>
+    </div>
+</body>
+    <script type="text/javascript" src="{% static 'js/register.js' %}"></script>
+</html>
