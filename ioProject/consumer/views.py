@@ -1,14 +1,21 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from django.http import HttpResponse, JsonResponse
 from . import forms
 from . import models
 import json
 # Create your views here.
+target_list = {
+    "consumer_is_exist": 1,
+}
 
 
-def from_test(request):
-    form = forms.ConsumerForm()
-    return render(request, 'consumer/formtest.html', {"form": form})
+def path_only_user(request):
+    # print(request.POST)
+    data = request.POST["TARGET"]
+    flag = target_list[data]
+    if flag == 1:
+        return consumer_is_exist(request)
+    return HttpResponse("ERROR REQUEST")
 
 
 def consumer_register(request):
@@ -51,3 +58,15 @@ def consumer_log_in(request):
 def consumer_log_out(request):
     pass
 
+
+def interface_test(request):
+    meta = request.META.items()
+    html = []
+    for k, v in meta:
+        html.append('<tr><td>%s</td><td>%s</td></tr>' % (k, v))
+        print(str(k) + ":" + str(v))
+    # consumer = models.Consumer
+    # consumer_list = consumer.objects.all()
+    # con = consumer_list[0]
+    # print(consumer_list)
+    return HttpResponse('<table>%s</table>' % '\n'.join(html))

@@ -68,9 +68,10 @@ $("#id_Account").on('input propertychange', function(f) {
         $("#id_Account").val(_all_input_string);
     }
     $.ajax({
-        url:"/user/consumer_is_exist/",
+        url:"/user/",
         type:"POST",
         data:{
+            TARGET:"consumer_is_exist",
             ACT:_all_input_string,
             csrfmiddlewaretoken: $('[name="csrfmiddlewaretoken"]').val(),
         },

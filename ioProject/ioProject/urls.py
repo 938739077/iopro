@@ -19,6 +19,6 @@ import captcha
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('user/', include('consumer.urls')),
+    path('user/', include(('consumer.urls', "consumer"), namespace="user")),
     path('captcha/', include('captcha.urls')),
 ]

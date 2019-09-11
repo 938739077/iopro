@@ -14,7 +14,7 @@
     <div id="main-box">
         <div id="main-half-box"></div>
         <div id="register-box">
-            <form id="register-form" method="post" action="/user/register/">
+            <form id="register-form" method="post" action="{% url 'user:register' %}">
                 {% csrf_token %}
                 <label class="from-label">用户名</label>
                 <span class="from-input">{{ form.Name }} <span>{{ errors.Name }}</span></span>
