@@ -45,3 +45,12 @@ class ConsumerForm(forms.Form):
     # CreTime = forms.DateField()
     # 验证码
     Captcha = CaptchaField(error_messages={'invalid': "验证码错误"})
+
+
+class LoginForm(forms.Form):
+    # 账号
+    Account = forms.CharField()
+    # 密码
+    Password = forms.CharField(widget=forms.PasswordInput())
+    # 验证码
+    Captcha = CaptchaField(error_messages={'invalid': "验证码错误"})

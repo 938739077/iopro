@@ -1,0 +1,89 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background: snow;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#main-box{
+    position: relative;
+    background: #7B68EE;
+    width: 100%;
+    margin: auto;
+    border-radius: 5px;
+}
+/*
+#转JS控制
+#main-half-box{
+    margin: auto;
+    width: 130%;
+    height: 100%;
+    background: aquamarine;
+    transform-origin:0px 0px;
+    transform: rotate(27deg);
+}*/
+#register-box{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    background: #2F4F4F;
+    width: 60%;
+    height: 80%;
+    margin: auto;
+    border-radius: 15px;
+}
+#register-form{
+    top: 80px;
+    width: 180px;
+    position: relative;
+    left: 40%;
+}
+.from-label{
+    top:20px;
+    display: inline-block;
+    width: 80px;
+    position: relative;
+    left: 10%;
+    font-size: 20px;
+    text-align: justify;
+    text-align-last: justify;
+}
+.from-input{
+    top:20px;
+    height: 25px;
+    border-radius: 6px;
+    position: relative;
+    left: 10%;
+}
+.from-input-div{
+    top:20px;
+    height: 30px;
+    border-radius: 6px;
+    position: relative;
+    width: 100px;
+    left: 10%;
+    font-size: 20px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+}
+#submit-btn{
+    top:40px;
+    height: 30px;
+    width: 100px;
+    border-radius: 6px;
+    position: relative;
+    left: 10%;
+    text-align: justify;
+    text-align-last: justify;
+    background: ButtonFace;
+}
+
+#err-msg{
+    top:40px;
+    left: 10%;
+    position: relative;
+    font-size: 16px;
+    color: red;
+}
