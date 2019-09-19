@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'captcha',
     'consumer',
+    'GModels'
 ]
 
 MIDDLEWARE = [
