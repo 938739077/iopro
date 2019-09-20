@@ -10,7 +10,6 @@ HERO_BASE_ATTRIBUTES = {
     "start": 1,
 }
 
-
 HERO_POSITION_LIST = [
     "warrior",
     "assassin",
@@ -26,3 +25,20 @@ HERO_POSITION_SET = {
     "assassin":     "刺客",
     "auxiliary":    "辅助",
 }
+
+HERO_BASE_STATUES_LIST = [
+    "normal",
+    "slowDown",
+    "accelerate",
+    "lethargy",
+    "Seal",
+    "magicDefenseImprovement",
+    "physicalDefenseImprovement",
+    "magicAttackImprovement",
+    "physicalAttackImprovement",
+    "injuryImmunity",
+]
+
+HERO_BASE_STATUES_SET = [
+
+]

@@ -31,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/character/hero/base_hero.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="260">
-              <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
               <folding>
                 <element signature="e#813#823#0" />
               </folding>
@@ -39,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GModels/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="780">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -51,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GModels/heroConfigure.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="9" column="10" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="10" />
+            <state relative-caret-position="598">
+              <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -108,8 +108,8 @@
         <option value="$PROJECT_DIR$/character/skill/base_skill.py" />
         <option value="$PROJECT_DIR$/static/publicJs/test.ts" />
         <option value="$PROJECT_DIR$/character/hero/base_hero.py" />
-        <option value="$PROJECT_DIR$/GModels/heroConfigure.py" />
         <option value="$PROJECT_DIR$/GModels/models.py" />
+        <option value="$PROJECT_DIR$/GModels/heroConfigure.py" />
       </list>
     </option>
   </component>
@@ -335,11 +335,12 @@
       <workItem from="1568680880156" duration="6779000" />
       <workItem from="1568767566893" duration="1197000" />
       <workItem from="1568853664114" duration="7772000" />
+      <workItem from="1568939853208" duration="2286000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126284000" />
+    <option name="totallyTimeSpent" value="128570000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -354,7 +355,7 @@
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09689508" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09796574" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -635,17 +636,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GModels/heroConfigure.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/character/hero/base_hero.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
-          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
           <folding>
             <element signature="e#813#823#0" />
           </folding>
@@ -654,11 +648,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GModels/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="780">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GModels/heroConfigure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
         </state>
       </provider>
     </entry>
