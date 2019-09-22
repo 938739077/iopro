@@ -39,6 +39,20 @@ HERO_BASE_STATUES_LIST = [
     "injuryImmunity",
 ]
 
-HERO_BASE_STATUES_SET = [
-
-]
+HERO_BASE_STATUES_SET = {
+    "normal": "正常",
+    "slowDown": "减速",
+    "accelerate": "加速",
+    "lethargy": "沉睡",
+    "seal": "封印",
+    "magicDefenseImprovement": "魔法防御提高",
+    "physicalDefenseImprovement": "物理防御提高",
+    "magicAttackImprovement": "魔法攻击提高",
+    "physicalAttackImprovement": "物理攻击提高",
+    "magicDefenseDecrease": "魔法防御降低",
+    "physicalDefenseDecrease": "物理防御降低",
+    "magicAttackDecrease": "魔法攻击降低",
+    "physicalAttackDecrease": "物理攻击降低",
+    "injuryImmunity": "伤害免疫",
+    "chaos": "混乱",
+}
