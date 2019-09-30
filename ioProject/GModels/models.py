@@ -18,7 +18,7 @@ class BaseHero(models.Model):
     magic_defensive_power = models.IntegerField(default=heroConfigure.HERO_BASE_ATTRIBUTES["magic_defensive_power"])
     physical_defensive_power = models.IntegerField(default=heroConfigure.HERO_BASE_ATTRIBUTES["physical_defensive_power"])
     start = models.IntegerField(default=heroConfigure.HERO_BASE_ATTRIBUTES["start"])
-    _is_delete = models.BooleanField(default=False)
+    is_delete = models.BooleanField(default=False)
 
     objects = HeroManager()
 

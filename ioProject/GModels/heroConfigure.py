@@ -36,7 +36,12 @@ HERO_BASE_STATUES_LIST = [
     "physicalDefenseImprovement",
     "magicAttackImprovement",
     "physicalAttackImprovement",
+    "magicDefenseDecrease",
+    "physicalDefenseDecrease",
+    "magicAttackDecrease",
+    "physicalAttackDecrease",
     "injuryImmunity",
+    "chaos",
 ]
 
 HERO_BASE_STATUES_SET = {
